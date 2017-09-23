@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>我的订单</title>
+		<script src="../script/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/flexible.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/orderDetail.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="order_state">
+				<div class="stateIcon"></div>
+				<p>已取消</p>
+			</div>
+			<div class="address">
+				<div class="a_l">
+					<div class="locationIcon"></div>
+					<div style="text-align: center;color: #ff4891;">[地址]</div>
+				</div>
+				<div class="a_r">
+					<div class="area">天津市河西区大营门富力中心3305</div>
+					<div class="recive"><span class="reciver">哈哈哈</span><span class="phone">18888888888</span></div>
+				</div>
+			</div>
+			<!--商品列表-->
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-collapse">
+					<a class="mui-navigate-right" href="#">查看商品详情</a>
+					<div class="allnum">共14件</div>
+					<div class="mui-collapse-content">
+						<div class="mui-collapse-content">
+							<div class="inner_g">
+								<img class="innerimg_g" src="../img/good1.jpg" />
+								<div class="inner_l">
+									<div class="sp_d">
+										<div class="inner_n">柠檬茶柠檬茶柠檬茶柠</div>
+										<div class="specification">300g  1袋</div>
+									</div>
+								</div>
+								<div class="inner_r">
+									<div class="hyj">会员价￥30</div>
+									<div class="num">X1</div>
+								</div>
+							</div>
+							<div class="inner_g">
+								<img class="innerimg_g" src="../img/good1.jpg" />
+								<div class="inner_l">
+									<div class="sp_d">
+										<div class="inner_n">柠檬茶柠檬茶柠檬茶柠</div>
+										<div class="specification">300g  1袋</div>
+									</div>
+								</div>
+								<div class="inner_r">
+									<div class="hyj">会员价￥30</div>
+									<div class="num">X1</div>
+								</div>
+							</div>
+							<div class="inner_g">
+								<img class="innerimg_g" src="../img/good1.jpg" />
+								<div class="inner_l">
+									<div class="sp_d">
+										<div class="inner_n">柠檬茶柠檬茶柠檬茶柠</div>
+										<div class="specification">300g  1袋</div>
+									</div>
+								</div>
+								<div class="inner_r">
+									<div class="hyj">会员价￥30</div>
+									<div class="num">X1</div>
+								</div>
+							</div>
+							<div class="inner_g">
+								<img class="innerimg_g" src="../img/good1.jpg" />
+								<div class="inner_l">
+									<div class="sp_d">
+										<div class="inner_n">柠檬茶柠檬茶柠檬茶柠</div>
+										<div class="specification">300g  1袋</div>
+									</div>
+								</div>
+								<div class="inner_r">
+									<div class="hyj">会员价￥30</div>
+									<div class="num">X1</div>
+								</div>
+							</div>
+							<div class="inner_g">
+								<img class="innerimg_g" src="../img/good1.jpg" />
+								<div class="inner_l">
+									<div class="sp_d">
+										<div class="inner_n">柠檬茶柠檬茶柠檬茶柠</div>
+										<div class="specification">300g  1袋</div>
+									</div>
+								</div>
+								<div class="inner_r">
+									<div class="hyj">会员价￥30</div>
+									<div class="num">X1</div>
+								</div>
+							</div>
+							<div class="inner_g">
+								<img class="innerimg_g" src="../img/good1.jpg" />
+								<div class="inner_l">
+									<div class="sp_d">
+										<div class="inner_n">柠檬茶柠檬茶柠檬茶柠</div>
+										<div class="specification">300g  1袋</div>
+									</div>
+								</div>
+								<div class="inner_r">
+									<div class="hyj">会员价￥30</div>
+									<div class="num">X1</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		
+			<!--订单明细-->
+			<div class="order_info">
+				<div>订单编号：<span>515613513616</span></div>
+				<div>创建时间：<span>2017-9-19 15:15:15</span></div>
+			</div>
+			<!--优惠方式-->
+			<div class="discount">
+				<div style="text-align:left;">优惠方式</div>
+				<div style="text-align: right;">会员价</div>
+			</div>
+			<!--合计-->
+			<div class="checkprice">
+				<div class="check_p1"><span style="text-align: left;">会员价</span><span style="text-align: right;">￥555</span></div>
+				<div class="check_p2"><span style="text-align: left;">红包</span><span style="text-align: right;">-￥555</span></div>
+				<div class="check_p3">
+					<div style="display: flex;">
+						<span style="text-align: left;">商品实付</span><span style="text-align: right;">￥555</span>
+						
+					</div>
+					<div style="display: flex;">
+						<span style="text-align: left;flex: 7;">运费（实付满88包邮）</span><span style="text-align: right;">免邮</span>
+					</div>
+				</div>
+				<div class="check_p4">
+					<span style="text-align: right"><span style="padding: 0;">合计：</span><span class="finnlprice" style="padding: 0;">￥1555</span></span>
+				</div>
+			</div>	
+		</div>
+	</body>
+
+</html>

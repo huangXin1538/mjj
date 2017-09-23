@@ -1,0 +1,165 @@
+.wrapper{
+	margin-bottom: 1.2rem;
+}.order_state{
+	padding: 0.3rem 0;
+	background-color: #fff;
+}
+.stateIcon{
+	background:url(../img/order-CANCELED.png);
+	width: 2.3rem;
+	height: 2.3rem;
+	margin: 0 auto;
+	background-size: cover;
+}
+.order_state p{
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.4rem;
+	height: 0.6;
+	color: #000;
+}
+.address{
+	display: flex;
+	background-color: #fff;
+	border-top: 1px solid #dbdbdb;
+	padding: 0.3rem 0;
+}.a_l{
+	flex: 1;
+}.a_r{
+	flex: 4;
+	font-size: 0.4rem;
+	line-height: 0.7rem;
+	color: #4b4b4b;
+}
+.locationIcon{
+	margin: 0 auto;
+	width: 0.55rem;
+	height: 0.7rem;
+	background: url(../img/address-5.0.png) no-repeat;
+	background-size: contain;
+}.allnum{
+	height: 100%;
+	position: absolute;
+	right: 1rem;
+	top: 0;
+	line-height: 1.2rem;
+}.mui-table-view-cell{
+	position: relative;
+}
+.inner_g{
+	position: relative;
+	display: flex;
+	margin-top: 0.1rem;
+	border-bottom: 1px solid #dbdbdb;
+}.inner_g:last-child{
+	border: none;
+}
+.innerimg_g{
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 0.1rem;
+	margin-right: 0.3rem;
+	flex: 1;
+}.inner_n{
+	line-height: 1.1rem;
+	font-size: 0.4rem;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}.inner_l{
+	flex: 5;
+	position: relative;
+	flex-direction: column;
+}.inner_r{
+	display: flex;
+	flex: 2;
+	text-align: right;
+	flex-direction: column;
+}.inner_l div{
+	flex: 1;
+}
+.inner_r div{
+	flex: 1;
+}.mui-table-view-cell.mui-collapse .mui-collapse-content {
+    padding-top: 0;
+}.hyj{
+	line-height: 1.1rem;
+	font-size: 0.3rem;
+	color: rgb(255, 72, 145);
+}
+.specification{
+	color: #888;
+	line-height: 0.8rem;
+}
+.sp_d{
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	height: auto;
+	flex-direction: column;
+}.num{
+	line-height: 0.8rem;
+}
+.order_info{
+	margin: 0.3rem 0;
+	background-color: #fff;
+	flex-direction: column;
+	height: 2rem;
+	padding-left: 0.3rem;
+	display: flex;
+}.order_info div{
+	flex: 1;
+	line-height: 1rem;
+	font-size: 0.35rem;
+}
+.discount{
+	height: 1.2rem;
+	display: flex;
+	flex-direction: row;
+	background-color: #fff;
+	padding: 0 0.3rem;
+	line-height: 1.2rem;
+	font-size: 0.35rem;
+}.discount div{
+	flex: 1;
+}
+
+/*结算*/
+.checkprice{
+	background-color: #fff;
+	margin-top: 0.2rem;
+	font-size: 0.4rem;
+}.checkprice>div{
+	border-bottom: 1px solid #dbdbdb;
+}.check_p1,.check_p2,.check_p4{
+	height: 1.2rem;
+	display: flex;
+	flex-direction: row;
+}.check_p3{
+	height: 2.4rem;
+}.check_p1>span{
+	flex: 1;
+	line-height: 1.2rem;
+	height: 100%;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}.checkprice span{
+	flex: 1;
+	line-height: 1.2rem;
+	height: 100%;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+.finnlprice{
+	padding: 0;
+	color: rgb(255, 72, 145);
+}
+.pay_bottom{
+	display: flex;
+}.pay_bottom div{
+	flex: 1;
+}

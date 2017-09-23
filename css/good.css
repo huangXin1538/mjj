@@ -1,0 +1,135 @@
+html,body{
+margin-bottom: 1.2rem;
+}
+.goodInfo{
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+	
+}.goodInner{
+	background-color: #fff;
+	margin-right: 0.3rem;
+	border: 1px solid #dbdbdb;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+.title{
+	padding-bottom: 0.2rem;
+}
+.title-product{
+	font-size: 21px;
+    color: #969696;
+}
+.goodSecName{
+	font-size: 16px;
+    color: #262626;
+    margin: 0;
+    padding-bottom: 0.2rem;
+}.info_bottom{
+	display: flex;
+	width: 100%;
+	height: 1rem;
+	border-top: 1px solid #DBDBDB;
+}.gb{
+	flex: 1;
+	height: 100%;
+}.kyjj{
+	padding-bottom: 0.2rem;
+	color: rgb(255, 195, 141);
+}
+.gi{
+	width: 0.7rem;
+	height: 0.7rem;
+	background-size: contain;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	top: 0.2rem;
+}.gf{
+	display: inline-block;
+	height: 0.7rem;
+	margin: 0;
+}.gw{
+	margin: 0 auto;
+}
+.integral-img{
+	height: 1.3rem;
+	width: auto;
+}.un-share-left{
+	width: auto;
+	display: inline-block;
+}
+.un-share-right{
+	display: inline-block;
+	position: absolute;
+	left: 3.5rem;
+	height: 1.3rem;
+	line-height: 1.3rem;
+}
+.un-share-content{
+	margin: 0 0.3rem;
+}.shareabout{
+	margin:0.3rem;
+	background-color: #fff;
+}
+.mui-navigate-right:after, .mui-push-left:after, .mui-push-right:after {
+   background:none;
+}.mui-navigate-right:after, .mui-push-right:after {
+    right: 15px;
+    content:'';
+}.pointul{
+	background: url(../img/product.png)  no-repeat;
+	background-position: center;
+	padding-top: 0.2rem;
+	padding: 0 0.3rem; 
+    background-size: 100% 100%;
+}
+.pointul li{
+	border-bottom: 1px solid #f5f5f5;
+	height: 1rem;
+	padding-left: 0.3rem;
+	line-height: 1rem;
+}.point{
+	background-color: #fff;
+	margin: 0.3rem;
+}
+.goodimg img{
+	width: 100%;
+}
+.g_bottom{
+	display: flex;
+	position: fixed;
+	border-top: 1px solid #DBDBDB;
+	width: 100%;
+	height: 1.2rem;
+	bottom: 0;
+}.g_bottom div:nth-child(1){
+	background-color:#fff;
+	background-image: url(../img/cart.png);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center;
+	flex: 1;
+}.g_bottom div:nth-child(2){
+	text-align: center;
+	flex: 7;
+	line-height: 1.2rem;
+	color: #fff;
+	font-size: 0.3rem;
+	background-color: #FF4891;
+}
+
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.goodimg{
+	display: flex;
+    flex-direction: column;
+}
+.hyj{
+	margin-bottom: 0.2rem;
+}
+.toshare{
+	text-align: center;margin: 0.1rem 0;color: #FF4891;
+	height: 0.8rem;
+}

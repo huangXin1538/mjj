@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>购物车</title>
+		<script src="../script/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/flexible.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/shopcart.css" />
+	</head>
+
+	<body>
+		<div class="content">
+			<!--活动区域-->
+			<div class="groups">
+				<div class="group">
+					<div class="group_header">
+						<div class="check_all"></div>
+						<div class="group_title">今日内送达</div>
+					</div>
+					
+					<div class="item mui-table-view-cell">
+						<div class="mui-slider-handle">
+							<div class="item_checked">
+								<div class="check_g"></div>
+							</div>
+							<div class="img">
+								<div class="img_g"></div>
+							</div>
+							<div class="desc">
+								<div class="g_name">蒙牛特仑苏苏苏苏苏苏苏</div>
+								<div class="g_tag"><span>超值优惠</span><span>新老包装随机发货</span></div>
+								<div class="g_desc"><span>可用券价</span><span>￥555</span></div>
+								<div class="g_price">会员价￥<span class="g_price_num">1500000</span></div>
+								<div class="g_num">
+									<div class="add">+</div>
+									<div class="num">1</div>
+									<div class="paste">-</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="mui-slider-right mui-disabled">
+							<a class="mui-btn mui-btn-red">删除</a>
+						</div>
+					</div>
+					<div class="item mui-table-view-cell">
+						<div class="mui-slider-handle">
+							<div class="item_checked">
+								<div class="check_g"></div>
+							</div>
+							<div class="img">
+								<div class="img_g"></div>
+							</div>
+							<div class="desc">
+								<div class="g_name">蒙牛特仑苏苏苏苏苏苏苏</div>
+								<div class="g_tag"><span>超值优惠</span><span>新老包装随机发货</span></div>
+								<div class="g_desc"><span>可用券价</span><span>￥555</span></div>
+								<div class="g_price">会员价￥<span class="g_price_num">1500000</span></div>
+								<div class="g_num">
+									<div class="add">+</div>
+									<div class="num">1</div>
+									<div class="paste">-</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="mui-slider-right mui-disabled">
+							<a class="mui-btn mui-btn-red">删除</a>
+						</div>
+					</div>
+					<div class="item mui-table-view-cell">
+						<div class="mui-slider-handle">
+							<div class="item_checked">
+								<div class="check_g"></div>
+							</div>
+							<div class="img">
+								<div class="img_g"></div>
+							</div>
+							<div class="desc">
+								<div class="g_name">蒙牛特仑苏苏苏苏苏苏苏</div>
+								<div class="g_tag"><span>超值优惠</span><span>新老包装随机发货</span></div>
+								<div class="g_desc"><span>可用券价</span><span>￥555</span></div>
+								<div class="g_price">会员价￥<span class="g_price_num">1500000</span></div>
+								<div class="g_num">
+									<div class="add">+</div>
+									<div class="num">1</div>
+									<div class="paste">-</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="mui-slider-right mui-disabled">
+							<a class="mui-btn mui-btn-red">删除</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!--选择优惠方式-->
+			<div class="style">
+				<div class="style1">
+					<div>会员优惠(需支付￥300)</div>
+					<div class="stylecheck"></div>
+				</div>
+				<div class="style2">
+					<div>用卷优惠(需支付￥300)</div>
+					<div class="stylecheck"></div>
+				</div>
+			</div>
+				
+			<!--合计-->
+			<div class="checkprice">
+				<div class="check_p1"><span style="text-align: left;">会员价</span><span style="text-align: right;">￥555</span></div>
+				<div class="check_p2"><span style="text-align: left;">红包</span><span style="text-align: right;">-￥555</span></div>
+				<div class="check_p3">
+					<div style="display: flex;">
+						<span style="text-align: left;">商品实付</span><span style="text-align: right;">￥555</span>
+						
+					</div>
+					<div style="display: flex;">
+						<span style="text-align: left;flex: 7;">运费（实付满88包邮）</span><span style="text-align: right;">免邮</span>
+					</div>
+				</div>
+				<div class="check_p4">
+					<span style="text-align: right"><span style="padding: 0;">合计：</span><span class="finnlprice" style="padding: 0;">￥1555</span></span>
+				</div>
+			</div>		
+		</div>
+		<!--底部-->
+		<div class="cartBottom">
+			<div class="bottom_l">
+				<div class="allcheck"></div>
+				<div class="select_all">全选</div>
+			</div>
+			<div class="bottom_c">
+				<div>合计：<span>￥555</span></div>
+				<div><span>可用卷价</span><span>,</span><span>包邮</span></div>
+			</div>
+			<div class="bottom_r">去结算 ></div>
+		</div>
+		
+		
+		<script src="../script/shopcart.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

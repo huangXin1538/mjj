@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>我的订单</title>
+		<script src="../script/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/flexible.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/myOrder.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<!--待付款-->
+			<div class="order">
+				<div class="orderbar">
+					<div class="ob_time"></div>
+					<div class="order_time">
+						2017-09-11 20:50:45
+					</div>
+				</div>
+				<div class="orderlist">
+					<div class="innerlist">
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+					</div>
+				</div>
+				<div class="order_state">
+					<!--1-->
+					<div class="process state1">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-a-01.png"/>
+						<p>已提交</p>
+						</div>
+						<div class="state_line"></div>
+					</div>
+					<!--2-2-->
+					<div class="process state2_2">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-b-03.png"/>
+						<p>已支付</p>
+						</div>
+						<div class="state_line grayline"></div>
+					</div>
+					<!--3-->
+					<div class="process state3">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-c-03.png"/>
+						<p>配送中</p>
+						</div>
+						<div class="state_line grayline"></div>
+					</div>
+					<!--4-->
+					<div class="process state4">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-d-01.png"/>
+						<p>已签收</p>
+						</div>
+					</div>
+				</div>
+				<div class="order_b">
+					<div class="b_l">实付￥300</div>
+					<div class="b_r">
+						<span>还剩<span class="minute">03</span>分<span class="second">50</span>秒</span>
+						<button type="button" class="mui-btn mui-btn-blue">去支付</button>
+					</div>
+				</div>
+			</div>
+			<!--取消订单-->
+			<div class="order">
+				<div class="orderbar">
+					<div class="ob_time"></div>
+					<div class="order_time">
+						2017-09-11 20:50:45
+					</div>
+				</div>
+				<div class="orderlist">
+					<div class="innerlist">
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+					</div>
+				</div>
+				<div class="order_state">
+					<!--1-->
+					<div class="process">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-a-02.png"/>
+						<p>已提交</p>
+						</div>
+						<div class="state_line"></div>
+					</div>
+					<!--2-1-->
+					<div class="process">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-f-01.png"/>
+						<p>已取消</p>
+						</div>
+					</div>
+				</div>
+				<div class="order_b">
+					<div class="b_l">实付￥300</div>
+					<div class="b_r">
+						<button type="button" class="mui-btn mui-btn-blue detail" >查看详情</button>
+					</div>
+				</div>
+			</div>
+			<!--完成-->
+			<div class="order">
+				<div class="orderbar">
+					<div class="ob_time"></div>
+					<div class="order_time">
+						2017-09-11 20:50:45
+					</div>
+				</div>
+				<div class="orderlist">
+					<div class="innerlist">
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+						<div class="list_g"></div>
+					</div>
+				</div>
+				<div class="order_state">
+					<!--1-->
+					<div class="process state1">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-a-01.png"/>
+						<p>已提交</p>
+						</div>
+						<div class="state_line"></div>
+					</div>
+					<!--2-2-->
+					<div class="process state2_2">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-a-01.png"/>
+						<p>已支付</p>
+						</div>
+						<div class="state_line"></div>
+					</div>
+					<!--3-->
+					<div class="process state3">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-a-01.png"/>
+						<p>配送中</p>
+						</div>
+						<div class="state_line"></div>
+					</div>
+					<!--4-->
+					<div class="process state4">
+						<div class="submit allstate">
+						<img class="stateImg" src="../img/order-state-a-01.png"/>
+						<p>已签收</p>
+						</div>
+					</div>
+				</div>
+				<div class="order_b">
+					<div class="b_l">实付￥300</div>
+					<div class="b_r">
+						<button type="button" class="mui-btn mui-btn-blue detail">查看详情</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="../script/myOrder.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

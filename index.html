@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html data-dpr="1">
+
+	<head lang="en">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<script src="script/flexible.min.js"></script>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/main.css">
+		
+		<title>
+			My家居
+		</title>
+
+	</head>
+
+	<body>
+		<div class="content">
+			<!--顶部提示-->
+			<div class="topTip"></div>
+			<!--定位-->
+			<div class="position">
+				<div class="location"></div>
+			</div>
+			<!--轮播-->
+			<div class="swiper-container">
+				<div class="swiper-wrapper" id="swiper1">
+
+				</div>
+				<div class="swiper-pagination pagination"></div>
+			</div>
+			<!--三个保障-->
+			<div class="ensure">
+				<div><img src="img/ensure2.png"/>每日精选</div>
+				<div><img src="img/ensure1.png"/>安心检测</div>
+				<div><img src="img/ensure3.png"/>赔付保障</div>
+			</div>
+			<div class="welfareGroup">
+				<h1>My特价</h1>
+				<div class="welfareGroupTabs">
+					<p>
+						<a href="javascript:;" class="active">热卖进行中</a>
+					</p>
+					<p>
+						<a href="javascript:;" class="">福利抢鲜看</a>
+					</p>
+				</div>
+				<div id="tabs-container" class="welfareGroup-container swiper-container-horizontal">
+					<div class="swiper-wrapper" id="swiper2" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide swiper-slide-active" style="width: 375px;">
+							<ul class="imglist">
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/68a1a0e380f4.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/c394b16fc96f.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/3403a24d88ad9.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/22f60f4839f11.jpg" alt=""></a>
+								</li>
+							</ul>
+							<a href="javascript:;" class="moreBtn">更多<b></b></a>
+						</div>
+						<div class="swiper-slide swiper-slide-next" style="width: 375px;">
+							<ul class="imglist">
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/28a5404c5c246.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/1797ad340cdf1.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/dae9111326d.jpg" alt=""></a>
+								</li>
+								<li>
+									<a href="javascript:;"><img class="" src="https://img.gegejia.com/22f60f462f5dd.jpg" alt=""></a>
+								</li>
+							</ul>
+							<a href="javascript:;" class="moreBtn">更多<b></b></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="contentlist">
+				<h1>活动特卖</h1>
+				<p class="contentTitle"></p>
+				<!--<div class="saleProduct">
+					<div>
+						<img class="" src="https://img.gegejia.com/activity/saleWindow/33ff8fb24cec5.jpg" alt="">
+						<div class="saleProductMesg">
+							<p class="limitTime">仅剩10天13小时</p>
+							<p class="saleProductName">
+								<b>澳洲美可卓奶粉</b>
+								<span>人见人爱“蓝胖子”</span>
+							</p>
+							<p class="saleProductPrice">
+								￥<b>125<i></i></b><span>起</span>
+							</p>
+						</div>
+					</div>
+				</div>-->
+			</div>
+			<div class="bottom_tab">
+				<div class="index"><img src="img/hicon2.png" alt="">
+					<p>首页</p>
+				</div>
+				<div class="shopcart"><img src="img/sicon1.png" alt="">
+					<p>购物车</p>
+				</div>
+				<div class="personal"><img src="img/picon1.png" alt="">
+					<p>我的</p>
+				</div>
+			</div>
+		</div>
+		<!--弹窗-->
+		<div class="popup-container home-popup-slide popup-showing active" ng-class="cssClass">
+			<div class="popup">
+				<div class="popup-head">
+					<h3 class="popup-title ng-binding" ng-bind-html="title"></h3>
+					<!-- ngIf: subTitle -->
+				</div>
+				<div class="popup-body">
+					<div close-popup-backdrop="modal" class="popup-ticket-wrap">
+						<div class="box-clo" ng-click="close(true)"></div>
+						<section class="popup-ticket-list" ng-style="{'background-image':'url('+data.coupon_info.bg_img+')'}" ng-click="goNext(data.coupon_info.link_type)" style="background-image: url(&quot;https://j-image.missfresh.cn/img_20170803154612526.png&quot;);">
+							<div class="ticket-list-wrap">
+								<!-- ngIf: data.coupon_info.coupon_list.length>2 -->
+								<div class="ticket-list">
+									<!-- 每一个优惠券模块 -->
+									<!-- ngRepeat: banner in data.coupon_info.coupon_list -->
+									<div class="list-item" ng-repeat="banner in data.coupon_info.coupon_list">
+										<div class="item-left">
+											<!-- 不是商品图时展示 -->
+											<!-- ngIf: banner.c_type!='product' --><span class="fs30 text" ng-if=" banner.c_type!='product' ">
+              <!-- 折扣券, 显示x折, 不需要人民币符号 -->
+              <!-- ngIf: banner.c_type=='discount' --><em ng-if=" banner.c_type=='discount' " class="ng-binding">4折</em><!-- end ngIf: banner.c_type=='discount' -->
+              <!-- 需要人民币符号 -->
+              <!-- ngIf: banner.c_type!='discount' -->
+              </span>
+											<!-- end ngIf: banner.c_type!='product' -->
+											<!-- ngIf: banner.c_type=='product' -->
+										</div>
+										<div class="item-right">
+											<h4 class="c-name ng-binding">折扣券 </h4>
+											<p class="c-des ng-binding">无门槛使用</p>
+										</div>
+									</div>
+									<!-- end ngRepeat: banner in data.coupon_info.coupon_list -->
+								</div>
+								<!-- ngIf: data.coupon_info.coupon_list.length>2 -->
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="popup-buttons ng-hide" ng-show="buttons.length">
+					<!-- ngRepeat: button in buttons -->
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="script/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script/main.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

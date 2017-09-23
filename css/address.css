@@ -1,0 +1,48 @@
+.address{
+	display: flex;
+	height: 2.9rem;
+	background-color: #fff;
+	padding: 0.2rem 0;
+	margin-top: 0.2rem;
+}.address:first-child{
+	margin-top: 0;
+}
+.l_l{
+	flex: 5;
+	padding-left: 0.45rem;
+	padding-top: 0.45rem;
+}.l_r{
+	flex: 1;
+	position: relative;
+}.edit{
+	border-left: 1px solid #dbdbdb;
+	position: absolute;
+	height: 1.5rem;
+	width: 100%;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	line-height: 1.5rem;
+	font-size: 0.4rem;
+	color: #666;
+}.l_l div{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.4rem;
+	color: #666;
+}
+.tag{
+	color: #ff4891;
+}
+.add{
+	width: 100%;
+	height: 1.2rem;
+	background-color: #ff4891;
+	line-height: 1.2rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	font-size: 0.4rem;
+	color: #fff;
+}

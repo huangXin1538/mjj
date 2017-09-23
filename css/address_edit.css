@@ -1,0 +1,29 @@
+#multiPickerInput{
+	height: 1.3rem;
+	line-height: 1rem;
+	font-size: 0.45rem;
+	color: #000;
+}.mui-btn.mui-btn-blue {
+    margin: 0.3rem 1rem 0 1rem;
+    background-color: #ff4891;
+    width: 8rem;
+    border: none;
+    outline: none;
+    height: 1rem;
+}.tags span{
+	display: inline-block;
+    width: 1rem;
+    margin-top: 0.25rem;
+    font-size: 0.25rem;
+    border: 1px solid rgb(255, 72, 145);
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.48rem;
+
+}.select{
+	color: #fff;
+	background-color: rgb(255, 72, 145);
+}
+.mui-input-row label{
+	line-height: 1.65;
+}

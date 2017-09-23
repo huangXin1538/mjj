@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>购物车</title>
+		<script src="../script/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/flexible.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/personal.css"/>
+	</head>
+	<body>
+		<div class="home_header">
+			<div>
+				<img class="home-head" src="https://j-image.missfresh.cn/img_20170601002437822.png">
+				<div class="home-des">
+					<span class="home-name">小鲜</span>
+					<a class="home-link" ng-href=""><img class="home-img" ng-src="http://missfresh-asschool-develop-common.ufile.ucloud.com.cn/img_20160920123427191.png" alt="" src="http://missfresh-asschool-develop-common.ufile.ucloud.com.cn/img_20160920123427191.png"></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="home-total">
+			<div class="home-money" ng-click="anaReport('view_balance', 'n_individual_center'); goToPrepaid();">
+				<span class="remain-money"><i class="ng-binding">0</i>元</span>
+				<span class="remain-text">余额</span>
+			</div>
+			<div class="home-money" ui-sref="tab.coupon.valid({type: 'packet'})" ng-click="hidePacket('packet')" href="#/tab/coupon/validpacket">
+				<span class="remain-money"><i class="ng-binding">1</i>张</span>
+				<span class="remain-text">红包</span>
+			</div>
+			<div class="home-money" ui-sref="tab.coupon.valid({type: 'coupon'})" ng-click="hideCoupun('coupon')" href="#/tab/coupon/validcoupon">
+				<span class="remain-money"><i class="ng-binding">1</i>张</span>
+				<span class="remain-text">优惠券</span>
+			</div>
+			<div class="home-money" ui-sref="myPoints" ng-click="anaReport('view_credit', 'n_individual_center')" href="#/myPoints">
+				<span class="remain-money"><i class="ng-binding">43</i>分</span>
+				<span class="remain-text">积分</span>
+			</div>
+		</div>
+		<div class="invite-gift disable-user-behavior" ana-on-touch="report('invite_friend_welfare','individual_center'); goToInvite();" ng-if="true ||(miniStart.isVipShowInvite &amp;&amp; user.is_vip)||(!user.is_vip)" style="">
+			<img class="invite-img" alt="" ng-src="https://j-image.missfresh.cn/img_20170727003903487.png" src="https://j-image.missfresh.cn/img_20170727003903487.png">
+			<span class="invite-text ng-binding">立即邀请</span>
+		</div>
+		<ul class="mui-table-view">
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right list">
+		                我的订单
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right address">
+		                 我的地址
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		                 下载app
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		             联系客服
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		                 意见反馈
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		                 消息
+		                 <span class="home-num ng-binding" ng-if="AllMenu.message.count" ng-bind="AllMenu.message.count" style="">1</span>
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		                 关于我们
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell">
+		            <a class="mui-navigate-right">
+		                 设置
+		            </a>
+		        </li>
+		    </ul>
+		    
+		    <script src="../script/personal.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

@@ -1,0 +1,199 @@
+html,
+body {
+	margin-bottom: 1.2rem;
+}
+
+.sentf {
+	background-color: #fff9e2;
+	height: 1rem;
+	line-height: 1rem;
+	padding-left: 0.3rem;
+}
+
+.mui-input-row label {
+	line-height: 1.5;
+}
+
+.mui-btn.mui-btn-blue {
+	margin: 0.3rem 1rem 0 1rem;
+	background-color: #ff4891;
+	width: 8rem;
+	border: none;
+	outline: none;
+	height: 1rem;
+}
+
+.listg {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.allf {
+	position: absolute;
+	display: inline-block;
+	height: 100%;
+	font-size: 0.4rem;
+	line-height: 1.7rem;
+	right: 0.8rem;
+}
+
+.mui-collapse {
+	position: relative;
+}
+
+.mui-table-view {
+	margin-top: 0.3rem;
+}
+
+.inner_g {
+	height: 2rem;
+	position: relative;
+}
+
+.innerimg_g {
+	width: 2rem;
+	height: 2rem;
+}
+
+.inner_n {
+	height: 2rem;
+	line-height: 2rem;
+	text-align: left;
+	position: absolute;
+	left: 3rem;
+	top: 0;
+}
+
+.mui-table-view-cell>a:not(.mui-btn) {
+	background-color: #fff;
+}
+
+.checkprice {
+	background-color: #fff;
+	margin-top: 0.2rem;
+	font-size: 0.4rem;
+}
+
+.checkprice>div {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.check_p1,
+.check_p2,
+.check_p4 {
+	height: 1.2rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.checkprice span {
+	flex: 1;
+	line-height: 1.2rem;
+	height: 100%;
+	padding-left: 0.45rem;
+	padding-right: 0.45rem;
+}
+
+.finnlprice {
+	padding: 0;
+	color: rgb(255, 72, 145);
+}
+
+.tosave {
+	position: absolute;
+	right: 1rem;
+	top: 0;
+	height: 100%;
+	line-height: 1.2rem;
+}
+
+.mui-table-view-cell:after {
+	content: "";
+	display: none;
+}
+
+.mui-navigate-right:after,
+.mui-push-right:after {
+	content: "";
+}
+
+.wx {
+	display: inline-block;
+	flex: 1;
+}
+
+.zfb {
+	display: inline-block;
+	flex: 1;
+}
+
+.wx p,
+.zfb p {
+	text-align: center;
+}
+
+.wx img,
+.zfb img {
+	margin: 0 auto;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid blue;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-left: 1.55rem;
+}
+
+.pay_bottom {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	height: 1.2rem;
+	width: 100%;
+	border-top: 1px solid #dbdbdb;
+	background-color: #fff;
+	color: rgb(255, 72, 145);
+}
+
+.pay1 {
+	flex: 3;
+	font-size: 0.4rem;
+	line-height: 1.2rem;
+	text-align: center;
+}
+
+.pay2 {
+	flex: 1;
+	background-color: rgb(255, 72, 145);
+	font-size: 0.4rem;
+	line-height: 1.2rem;
+	text-align: center;
+	color: #fff;
+}
+.js {
+	color: rgb(150, 150, 150);
+	font-size: 0.3rem;
+}
+.mui-table-view-cell {
+	border-bottom: 1px solid #dbdbdb;
+}
+#multiPickerInput{
+	height: 1.3rem;
+	line-height: 1rem;
+	font-size: 0.45rem;
+	color: #888;
+}
+.tags span{
+	display: inline-block;
+    width: 0.9rem;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    font-size: 0.2rem;
+    border: 1px solid rgb(255, 72, 145);
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.48rem;
+
+}.select{
+	color: #fff;
+	background-color: rgb(255, 72, 145);
+}
