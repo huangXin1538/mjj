@@ -33,7 +33,7 @@ $(function() {
 		var a_descImg = detail.desc.split(",");
 		$(a_descImg).each(function() {
 			var s = '<img src="' + this + '">';
-			$(".goodimg").prepend(s)
+			$(".goodimg").append(s)
 		})
 		var mySwiper = new Swiper('.swiper-container', {
 			pagination: '.swiper-pagination',

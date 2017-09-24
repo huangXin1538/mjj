@@ -9,21 +9,21 @@ margin-bottom: 1.2rem;
 	background-color: #fff;
 	margin-right: 0.3rem;
 	border: 1px solid #dbdbdb;
-	padding-left: 0.3rem;
-	padding-right: 0.3rem;
+	padding: 0.3rem 0.3rem 0rem 0.3rem;
 }
 .title{
-	padding-bottom: 0.2rem;
+	padding-bottom: 0.4rem;
 }
 .title-product{
-	font-size: 21px;
+	font-size: 0.56rem;
     color: #969696;
+    line-height: 0.8rem;
 }
 .goodSecName{
-	font-size: 16px;
+	font-size: 0.42666rem;
     color: #262626;
     margin: 0;
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.3rem;
 }.info_bottom{
 	display: flex;
 	width: 100%;
@@ -33,7 +33,8 @@ margin-bottom: 1.2rem;
 	flex: 1;
 	height: 100%;
 }.kyjj{
-	padding-bottom: 0.2rem;
+	padding-bottom: 0.1rem;
+	font-size: 0.3777rem;
 	color: rgb(255, 195, 141);
 }
 .gi{
@@ -48,6 +49,7 @@ margin-bottom: 1.2rem;
 	display: inline-block;
 	height: 0.7rem;
 	margin: 0;
+	color: #969696;
 }.gw{
 	margin: 0 auto;
 }
@@ -128,8 +130,20 @@ margin-bottom: 1.2rem;
 }
 .hyj{
 	margin-bottom: 0.2rem;
+	color: rgb(255, 72, 145);
+	position: relative;
+	font-size: 0.32rem;
+}.saleNum{
+	position: absolute;
+	right: 0.3rem;
+	bottom: 0;
+	color: #969696;
 }
 .toshare{
 	text-align: center;margin: 0.1rem 0;color: #FF4891;
 	height: 0.8rem;
+}
+.mark-img{
+	width: 0.35rem;
+	height: 0.35rem;
 }

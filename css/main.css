@@ -107,6 +107,39 @@ html,body{
     margin-top: 0.26666667rem;
     background: #fff;
     overflow: hidden;
+}.homecart{
+	width: 1.3rem;
+	height: 1.3rem;
+	background-image: url(../img/homecart.png);
+	background-size: cover;
+	position: absolute;
+	right: 0.3rem;
+	bottom: 0.6rem;
+	z-index: 10;
+}.selectNum{
+	position: absolute;
+	right: 0.3rem;
+	bottom: 0.6rem;
+	height: 0.8rem;
+	z-index: 10;
+	display: flex;
+	visibility: hidden;
+}.selectNum span{
+	display: inline-block;
+	flex: 1;
+	width: 0.58rem;
+	height: 0.58rem;
+	margin-left: 0.1rem;
+}.selectNum .reduce{
+	background-image: url(../img/reduce-img.png);
+	background-size: contain;
+	margin-left: 0;
+}.selectNum .add{
+	background-image: url(../img/add-img.png);
+	background-size: contain;
+}.selectNum .nowNum{
+	text-align: center;
+	line-height: 0.58rem;
 }
 .contentlist h1 {
     color: #33383b;
@@ -136,7 +169,10 @@ html,body{
 }.saleProduct .saleProductMesg {
 	width: 5.7rem;
     position: absolute;
-    top: 1rem;
+    top: 0;
+    height: fit-content;
+    bottom: 0;
+    margin: auto;
     left: 3.9rem;
     color: #383c3b;
 }.saleProduct .limitTime {
@@ -151,8 +187,8 @@ html,body{
     display: inline-block;
 }.saleProduct .saleProductName b {
     margin-top: 0.13333333rem;
+    color: #474245;
     font-size: 0.4rem;
-    font-weight: bold;
 }.saleProduct .saleProductName span {
     margin-top: 0.05rem;
     font-size: 0.34666667rem;
@@ -175,6 +211,8 @@ html,body{
 }.saleProductcPrice{
 	margin-top: 0.2rem;
 	color: rgb(255, 72, 145);
+}.saleProductcPrice b{
+	font-size: 0.4rem;
 }
 /*輪播*/
 .swiper-container {

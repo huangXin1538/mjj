@@ -120,51 +120,6 @@
 				</div>
 			</div>
 		</div>
-		<!--弹窗-->
-		<div class="popup-container home-popup-slide popup-showing active" ng-class="cssClass">
-			<div class="popup">
-				<div class="popup-head">
-					<h3 class="popup-title ng-binding" ng-bind-html="title"></h3>
-					<!-- ngIf: subTitle -->
-				</div>
-				<div class="popup-body">
-					<div close-popup-backdrop="modal" class="popup-ticket-wrap">
-						<div class="box-clo" ng-click="close(true)"></div>
-						<section class="popup-ticket-list" ng-style="{'background-image':'url('+data.coupon_info.bg_img+')'}" ng-click="goNext(data.coupon_info.link_type)" style="background-image: url(&quot;https://j-image.missfresh.cn/img_20170803154612526.png&quot;);">
-							<div class="ticket-list-wrap">
-								<!-- ngIf: data.coupon_info.coupon_list.length>2 -->
-								<div class="ticket-list">
-									<!-- 每一个优惠券模块 -->
-									<!-- ngRepeat: banner in data.coupon_info.coupon_list -->
-									<div class="list-item" ng-repeat="banner in data.coupon_info.coupon_list">
-										<div class="item-left">
-											<!-- 不是商品图时展示 -->
-											<!-- ngIf: banner.c_type!='product' --><span class="fs30 text" ng-if=" banner.c_type!='product' ">
-              <!-- 折扣券, 显示x折, 不需要人民币符号 -->
-              <!-- ngIf: banner.c_type=='discount' --><em ng-if=" banner.c_type=='discount' " class="ng-binding">4折</em><!-- end ngIf: banner.c_type=='discount' -->
-              <!-- 需要人民币符号 -->
-              <!-- ngIf: banner.c_type!='discount' -->
-              </span>
-											<!-- end ngIf: banner.c_type!='product' -->
-											<!-- ngIf: banner.c_type=='product' -->
-										</div>
-										<div class="item-right">
-											<h4 class="c-name ng-binding">折扣券 </h4>
-											<p class="c-des ng-binding">无门槛使用</p>
-										</div>
-									</div>
-									<!-- end ngRepeat: banner in data.coupon_info.coupon_list -->
-								</div>
-								<!-- ngIf: data.coupon_info.coupon_list.length>2 -->
-							</div>
-						</section>
-					</div>
-				</div>
-				<div class="popup-buttons ng-hide" ng-show="buttons.length">
-					<!-- ngRepeat: button in buttons -->
-				</div>
-			</div>
-		</div>
 	</body>
 	<script src="script/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="script/swiper.min.js" type="text/javascript" charset="utf-8"></script>
